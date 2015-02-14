@@ -2,7 +2,7 @@
 A customizable livewallpaper for android.
 
 ### Install from play store
-https://play.google.com/store/apps/details?id=com.painless.clock
+https://play.google.com/store/apps/details?id=com.painless.glclock
 
 Includes following widgets
   - Clock (digital/analog)
