@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="wallpaper_settings"
+    android:title="@string/settings" >
+
+    <PreferenceCategory android:title="@string/setting_section_theme" >
+        <PreferenceScreen android:title="@string/setting_theme" >
+            <intent
+                android:targetClass="com.painless.glclock.setting.ColorPicker"
+                android:targetPackage="com.painless.glclock" >
+                <extra
+                    android:name="title"
+                    android:value="@string/setting_theme" />
+                <extra
+                    android:name="key"
+                    android:value="theme" />
+            </intent>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/setting_back" >
+            <intent
+                android:targetClass="com.painless.glclock.setting.ImagePicker"
+                android:targetPackage="com.painless.glclock" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_section_trails" >
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/trails_names"
+            android:entryValues="@array/trails_values"
+            android:key="trails"
+            android:title="@string/setting_trails" />
+
+        <PreferenceScreen android:title="@string/setting_tcolor" >
+            <intent
+                android:targetClass="com.painless.glclock.setting.ColorPicker"
+                android:targetPackage="com.painless.glclock" >
+                <extra
+                    android:name="title"
+                    android:value="@string/setting_tcolor_choose" />
+                <extra
+                    android:name="key"
+                    android:value="tcolor" />
+            </intent>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_section_widgets" >
+        <PreferenceScreen android:title="@string/setting_configure_widgets" >
+            <intent
+                android:targetClass="com.painless.glclock.setting.OffsetPicker"
+                android:targetPackage="com.painless.glclock" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="clock_mode"
+            android:title="@string/setting_clock_digital" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/setting_compass_shift_names"
+            android:entryValues="@array/setting_compass_shift_values"
+            android:key="compass_delta"
+            android:summary="@string/setting_compass_shift_desc"
+            android:title="@string/setting_compass_shift" />
+
+        <PreferenceScreen
+            android:key="user_location"
+            android:title="@string/setting_weather_location" >
+            <intent
+                android:targetClass="com.painless.glclock.setting.LocationViewActivity"
+                android:targetPackage="com.painless.glclock" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

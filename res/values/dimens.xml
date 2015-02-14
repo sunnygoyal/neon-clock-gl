@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="map_width">900dp</dimen>
+    <dimen name="map_left_space">24dp</dimen>
+    <dimen name="map_top_space">36dp</dimen>
+
+</resources>

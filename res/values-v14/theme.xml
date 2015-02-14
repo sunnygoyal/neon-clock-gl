@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="dialogtheme" parent="android:Theme.DeviceDefault.Dialog" />
+
+    <style name="butterbartheme" parent="android:DeviceDefault.ButtonBar.AlertDialog" />
+
+    <style name="clickable">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="dialogtheme" parent="@android:style/Theme.Dialog" />
+
+    <style name="butterbartheme" parent="@android:style/ButtonBar" />
+
+    <style name="clickable">
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <dimen name="info_margin">10dp</dimen>
+</resources>

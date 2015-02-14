@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neon Clock GL</string>
+    <string name="description">Neon clock with battery indicator and compass</string>
+    <string name="settings">Settings</string>
+    <string name="setting_section_theme">Theme</string>
+    <string name="setting_theme">Color Scheme</string>
+    <string name="setting_back">Background Image</string>
+    <string name="setting_section_trails">Trails</string>
+    <string name="setting_trails">Count</string>
+
+    <string-array name="trails_names">
+        <item>None</item>
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="trails_values">
+        <item>0</item>
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+    </string-array>
+
+    <string name="setting_tcolor">Color</string>
+    <string name="setting_tcolor_choose">Trails color</string>
+    <string name="setting_section_widgets">Widgets</string>
+    <string name="setting_configure_widgets">Configure Widgets</string>
+    <string name="setting_clock_digital">Show digital clock</string>
+    <string name="setting_compass_shift">Compass Angular Shift</string>
+    <string name="setting_compass_shift_desc">Rotational shift in a particular orientation</string>
+
+    <string-array name="setting_compass_shift_names">
+        <item>Disabled</item>
+        <item>90\u00B0 CW in Landscape</item>
+        <item>90\u00B0 CCW in Landscape</item>
+        <item>90\u00B0 CW in Portrait</item>
+        <item>90\u00B0 CCW in Portrait</item>
+    </string-array>
+    <string-array name="setting_compass_shift_values">
+        <item>0</item>
+        <item>270</item>
+        <item>90</item>
+        <item>-270</item>
+        <item>-90</item>
+    </string-array>
+
+    <string name="setting_weather_location">Your location</string>
+
+    <!--
+  **************************************
+  ******** Strings for Image Picker *********
+  ***************************************
+    -->
+    <string-array name="ip_backValues">
+        <item>Black</item>
+        <item>Abstract Background</item>
+        <item>Current Background</item>
+        <item>Custom Background</item>
+    </string-array>
+
+    <string name="ip_set_back">Apply</string>
+    <string name="ip_gallery">Gallery&#8230;</string>
+    <string name="ip_backShade">Background shade</string>
+
+    <!--
+  **************************************
+  ****** Strings for Location Picker ********
+  ***************************************
+    -->
+    <string name="lp_hint">Search town or city</string>
+    <string name="lp_search">Search location</string>
+    <string name="lp_busy_searching">Searching</string>
+    <string name="lp_error_no_result">Location not found</string>
+    <string name="lp_busy_validating">Validating location</string>
+    <string name="lp_error_unknown">Failed to validate location</string>
+    <string name="lp_degee_c">\u00B0 C</string>
+    <string name="lp_degee_f">\u00B0 F</string>
+    <string name="lb_search_title">Search: %s</string>
+
+    <!--
+  **************************************
+  ****** Strings for Color Picker ********
+  ***************************************
+    -->
+    <string name="cp_sameAsTheme">Same as theme</string>
+    <string name="cp_cancel">Cancel</string>
+    <string name="cp_done">Set Color</string>
+    <string name="cp_defaultTheme">Default theme</string>
+    <string name="cp_error">Unable to save color</string>
+
+    <!--
+  **************************************
+  ******* Strings for Widget editor *********
+  ***************************************
+    -->
+    <string name="wp_info">Drag the widgets to change their position</string>
+    <string name="wp_reset">Reset Positions</string>
+    <string name="wp_finish">Close</string>
+    <string name="wp_color_change">color</string>
+    <string name="wp_clock">Clock</string>
+    <string name="wp_compass">Compass</string>
+    <string name="wp_battery">Battery meter</string>
+    <string name="wp_cpu">CPU meter</string>
+    <string name="wp_ram">Memory meter</string>
+    <string name="wp_calendar">Calendar</string>
+    <string name="wp_weather">Weather indicator</string>
+    <string name="enabled">Enabled</string>
+    <string name="click_to_edit">Click here to edit</string>
+
+</resources>
